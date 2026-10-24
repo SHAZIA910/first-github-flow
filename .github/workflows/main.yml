@@ -1,16 +1,17 @@
+
 name: shazia jamil
 
 on:
-    push:
-    
-branches:  [main]
-jobs :
-   demo:
-       runs-on: ubuntu-latest
-       steps:
-           - name:   Greetings
-         run  : 
-           echo "Hello from shazia jamil"
+  push:
+    branches: [main]
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greetings
+        run: echo "Hello from shazia jamil"
+
            
            
        
